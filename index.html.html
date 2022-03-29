@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alisha Fitness</title>
+    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style20.css">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            background: url('image/gym1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    .left img {
+        width: 55px;
+    }
+
+    div {
+        font-size: small;
+    }
+
+    .left div {
+        line-height: 19px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 12px;
+        top: 21px;
+    }
+
+    .mide {
+        display: block;
+        width: 53%;
+        margin: 10px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 10px;
+        top: 28px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(128, 128, 128);
+    }
+
+    .btn {
+        font-family: 'Kanit', sans-serif;
+        background-color: transparent;
+        color: white;
+        margin: 2px 12px;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 34px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+
+        border: 1px solid white;
+        width: 34%;
+        margin: 226px 490px;
+        padding: 30px;
+        border-radius: 49px;
+    }
+
+    .group input {
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        display: block;
+        width: 379px;
+        padding: 3px;
+        border: 2px solid black;
+        font-size: 20px;
+        margin: 13px auto;
+        border-radius: 38px;
+    }
+
+    .container h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: -0.33em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 27px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    .band button {
+        font-family: 'Kanit', sans-serif;
+        display: block;
+        width: 127px;
+        margin: -3px 190px;
+        padding: 2px 8px;
+        font-size: 16px;
+        background: transparent;
+        border-radius: 40px;
+        color: white;
+        border: 2px solid grey;
+    }
+
+    .band button:hover {
+        background-color: grey;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="image/gym4.png" alt="">
+            <div>Alisha fitness</div>
+        </div>
+        <!-- mide box for navbar -->
+        <div class="mide">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact Us</a></li>
+                <li> <a href="#">Home Workout</a></li>
+
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Contact Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best GYM Of Ambala City Now</h1>
+        <form action="noaction.php">
+            <div class="group">
+                <input type="text" name="name" placeholder="Enter The Name">
+            </div>
+            <div class="group">
+                <input type="text" name="age" placeholder="Enter the Age">
+            </div>
+            <div class="group">
+                <input type="text" name="Phone No." placeholder="Enter the Phone No.">
+            </div>
+            <div class="group">
+                <input type="text" name="sex" placeholder="Enter the Locality">
+            </div>
+            <div class="band">
+                <button>submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
